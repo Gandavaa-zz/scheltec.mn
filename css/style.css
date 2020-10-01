@@ -1,0 +1,296 @@
+/*** 
+color : 0f88c9;
+***/
+html, body {
+
+    color: #666666;
+}
+
+/*
+******************************
+*=header 00
+******************************
+*/
+header{
+    overflow: hidden;
+}
+
+.container{
+    padding: 0;
+}
+
+.logo{
+    float: left;	
+	width: auto;
+	height: 54px;
+    margin: 25px 0 10px 3px;
+
+}
+
+.banner{
+    margin: auto 2px;
+}
+
+.langbar{
+/*  clear: both;
+    overflow: hidden;*/
+    position: absolute;
+    top:0px;
+    right:150px;
+    margin: 40px 0px;
+}
+
+.langbar .list-inline li{
+    padding:0 2px;
+    margin: 0;
+}
+
+.dist{
+    float: left;
+    font-size: 10pt;
+    margin:40px 0 0 30px;    
+}
+
+/******************/
+/*=micselenous*/
+/******************/
+.main-wrap{
+  margin-top: 25px;
+}
+p {
+    font-size: 13px;
+    line-height: 16px;
+    margin: 7px 0;  
+}
+
+.s-col p, .s-col-end p{
+   font-size: 10pt;
+   line-height: 18px;
+   color:#666666;
+   text-align: justify;
+}
+
+.s-col h3, .s-col-end h3{
+    font-size: 14px;
+    color:#000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.blue h3{
+    padding-bottom: 17px;
+    border-bottom: 2px solid #46a7d9;
+    margin-bottom: 19px;
+}
+
+.orange h3 {
+    border-bottom: 2px solid #ffa300;
+    padding-bottom: 17px;
+    margin-bottom: 19px;
+}
+
+.green h3 {
+    border-bottom: 2px solid #3fcb0e;
+    padding-bottom: 17px;
+    margin-bottom: 19px;
+}
+
+h5{
+    font-weight: bold;
+}
+
+h2{
+   font-size: 22px;
+    margin: 15px 0;
+
+}
+
+.date{
+    font-weight: bold;
+    font-size: 9pt;
+    color: #3fcb0e;
+}
+
+
+/***************************/
+/*Jumbutron*/
+/***************************/
+.jumbotron{
+    padding: 0;
+    margin: 0;
+
+}
+
+/*****************************/
+/*=section  columns*/
+/*****************************/
+
+section{
+    /*height: 500px;*/
+    display: table;    
+    width: 0 auto;
+    margin-top: 15px; 
+    margin-left:2px;
+    
+}
+
+.s-col{          
+   height: 384px;
+/*    
+   width:364px;
+*/
+   margin-right:18px;
+   border-radius: 6px;
+   border: 1px solid #d9d9d9;
+   box-shadow:1px 1px 5px 0.5pt #d9d9d9;  
+   background: -webkit-linear-gradient(#fff, #f5f5f5); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#fff, #f5f5f5); /* Standard syntax (must be last) */
+}
+.s-col-end{  
+
+   height: 384px;   
+   border-radius: 6px;
+   border: 1px solid #d9d9d9;
+   box-shadow:1px 1px 5px 0.5pt #d9d9d9;  
+   background: -webkit-linear-gradient(#fff, #f5f5f5); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#fff, #f5f5f5); /* Standard syntax (must be last) */
+}
+
+
+/**************/
+/**about*******/
+/**************/
+
+.menu-catalog{
+   min-height: 384px;
+   border-radius: 6px;
+   margin-right:17px;   
+   border: 1px solid #d9d9d9;
+   box-shadow:1px 1px 5px 0.5pt #d9d9d9;  
+   background: -webkit-linear-gradient(#fff, #f5f5f5); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#fff, #f5f5f5); /* Standard syntax (must be last) */
+}
+
+.menu-catalog ul{
+   list-style-type: none;
+   padding:10px 20px 0px 5px;
+}
+
+.menu-catalog h3{
+  font-size: 15px;
+   border-bottom: 2px solid #3399cc;
+   margin: 0 5px 0 5px;
+   padding: 15px 0 9px 0;
+   color: #3399cc;
+   font-weight: bold;
+
+}
+
+.menu-catalog li{
+    border-bottom: 1px dotted;
+    padding: 11px 0 10px 0;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.menu-catalog .last{
+  border-bottom: none;
+}
+.menu-catalog a{
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333333;
+}
+
+.about-menu{          
+   min-height: 384px;
+   margin-right:18px;
+   border-radius: 6px;
+   border: 1px solid #d9d9d9;
+   box-shadow:1px 1px 5px 0.5pt #d9d9d9;  
+   background: -webkit-linear-gradient(#fff, #f5f5f5); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#fff, #f5f5f5); /* Standard syntax (must be last) */
+}
+
+.content-wrap{
+    min-height: 384px;
+    border-radius: 6px;
+   border: 1px solid #d9d9d9;
+   box-shadow:1px 1px 5px 0.5pt #d9d9d9;  
+   background: -webkit-linear-gradient(#fff, #f5f5f5); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#fff, #f5f5f5); /* Standard syntax (must be last) */
+}
+
+.content-wrap h2{
+  font-weight: bold;
+}
+
+.content-wrap p{
+  font-size: 13px;
+    line-height: 18px; dcvbnmnjhgnbvc op v
+    margin: 7px 0;  
+}
+
+/*************
+/***customer***/
+/**************/
+.cust-bar{
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+
+/*****************/
+/*=footer*/
+/*********************/
+ .footer{      
+  /*padding-bottom: 40px;*/
+  margin-top: 20px;
+  /*border-bottom: 1px solid #eee;*/
+  
+}
+
+/*.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+}
+*/
+
+.border {
+    height: 1px;
+    width: 100%;
+    margin-top: 13px;
+    margin-bottom: 16px;
+    background-color: #e4e4e4;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #666666;
+}
+.si-round{
+    border-radius: 50%;
+}
+
+
+.social li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.social li i{
+    color:#0f88c9;
+}
+
+.social a:hover{
+    text-decoration: none;    
+}
+
+.social a:hover i{
+    color:#FF530D;
+}
+
+

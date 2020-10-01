@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width">
+    <title>Document</title>
+    <link rel="stylesheet" type="css/text" href="css/menu.css">
+    <script src="jquery-1.11.3.min.js"></script>
+    <script>
+        alert('hello');
+        /* Mobile */
+        $('#menu-wrap').prepend('<div id="menu-trigger">Menu</div>');       
+        $("#menu-trigger").on("click", function(){
+            $("#menu").slideToggle();
+        });
+        // iPad
+        var isiPad = navigator.userAgent.match(/iPad/i) != null;
+        if (isiPad) $('#menu ul').addClass('no-transition');
+    </script>
+</head>
+<body>
+    <nav id="menu-wrap">
+        <ul id="menu">
+            <li><a href="#">Бидний тухай</a></li>
+            <li>
+                <a href="#">Тоног төхөөрөмж</a>
+                <ul>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">Graphic design</a></li>
+                    <li><a href="#">Development tools</a></li>
+                    <li><a href="#">Web design</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Үйлчилгээ</a></li>
+            <li><a href="#">Тусламж</a></li>
+            <li><a href="#">Холбогдох</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
